@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import MyNavbar from '../../components/Navbar/Navbar.jsx';
+import Navbar from '../../components/Navbar/Navbar.jsx';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
@@ -19,7 +19,7 @@ const Gallery = () => {
 
   return (
     <>
-      <MyNavbar />
+      <Navbar />
 
       <Container fluid className="pt-5 mt-5">
 

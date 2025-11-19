@@ -12,7 +12,7 @@ import img8 from '../../assets/Gallery/Domestic/varkala.jpg'
 import image1 from '../../assets/Gallery/International/Africa.jpg'
 import image2 from '../../assets/Gallery/International/Bali.jpg'
 import image3 from '../../assets/Gallery/International/dubai.jpg'
-import image4 from '../../assets/Gallery/International/Japan_kyoto.jpg'
+import image4 from "../../assets/Gallery/International/japan_kyoto.jpg";
 import image5 from '../../assets/Gallery/International/malasiya.jpg'
 import image6 from '../../assets/Gallery/International/pattaya.jpg'
 import image7 from '../../assets/Gallery/International/Singapore.jpg'
