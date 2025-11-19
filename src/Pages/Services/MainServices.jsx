@@ -11,7 +11,7 @@ import {
   Check,
 } from "lucide-react";
 import { motion } from "framer-motion";
-import Navbar from "../../Components/Navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar.jsx";
 
 import ser1 from "../../assets/Mainservice/ser1.avif";
 import ser2 from "../../assets/Mainservice/ser2.avif";

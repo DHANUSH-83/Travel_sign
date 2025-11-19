@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import MyNavbar from '../../components/Navbar/Navbar';
+import MyNavbar from '../../components/Navbar/Navbar.jsx';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-import { Domestic, International, Punyayathra } from './Data';
-import Testimonial from '../../components/Testimonial/Testimonial';
-import Footer from '../../components/Footer/Footer';
+import { Domestic, International, Punyayathra } from './Data.jsx';
+import Testimonial from '../../components/Testimonial/Testimonial.jsx';
+import Footer from '../../components/Footer/Footer.jsx';
 
 const Gallery = () => {
   const [activeCategory, setActiveCategory] = useState("International");

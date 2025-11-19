@@ -1,12 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Container, CardGroup, Card, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-import MyNavbar from "../../components/Navbar/navbar";
+import Navbar from "../../components/Navbar/Navbar.jsx";
 import ExploreSection from "../../components/Explore/Explore.jsx";
 import Testimonial from "../../components/Testimonial/Testimonial.jsx";
 import Destination from "../../components/Popular_destination/destination.jsx";
@@ -93,7 +91,7 @@ const Home = () => {
         overflowX: "hidden",
       }}
     >
-      <MyNavbar />
+      <Navbar />
 
       {/* ===== Hero Section ===== */}
       <section

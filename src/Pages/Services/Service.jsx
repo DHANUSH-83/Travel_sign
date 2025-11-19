@@ -1,19 +1,11 @@
 import React from "react";
 import { Card, Container, Row, Col, Button } from "react-bootstrap";
-import {
-  Palmtree,
-  Mountain,
-  Building2,
-  Camera,
-  Users,
-  Calendar,
-  Check,
-} from "lucide-react";
+import { Palmtree, Mountain, Building2, Camera, Users, Calendar, Check, } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import Navbar from "../../Components/Navbar/Navbar";
-import MainServices from "./MainServices";
-import Footer from "../../Components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar.jsx";
+import MainServices from "./MainServices.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
 
 const Services = () => {
   const services = [

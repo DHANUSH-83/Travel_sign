@@ -4,9 +4,9 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
 import { Users, Award, Star, Globe, Globe2, HeartHandshake } from "lucide-react";
-import Navbar from "../../Components/Navbar/Navbar";
-import Footer from "../../Components/Footer/Footer";
-import Testimonial from "../../components/Testimonial/Testimonial";
+import Navbar from "../../components/Navbar/Navbar.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
+import Testimonial from "../../components/Testimonial/Testimonial.jsx";
 import Aboutimg from "../../assets/aboutbanner.jpg";
 
 const About = () => {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Navbar from '../../components/Navbar/Navbar';
-import Footer from '../../components/Footer/Footer';
-import Testimonial from '../../components/Testimonial/Testimonial'
+import Navbar from "../../components/Navbar/Navbar.jsx";
+import Footer from '../../components/Footer/Footer.jsx';
+import Testimonial from '../../components/Testimonial/Testimonial.jsx'
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 
