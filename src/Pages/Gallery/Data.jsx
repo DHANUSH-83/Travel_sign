@@ -23,7 +23,7 @@ import images1 from '../../assets/Gallery/Punyayathra/Brihadishwara_Temple.jpg'
 import images2 from '../../assets/Gallery/Punyayathra/gujarat.jpg'
 import images3 from '../../assets/Gallery/Punyayathra/kashi.jpg'
 import images4 from '../../assets/Gallery/Punyayathra/Kedarnath.jpg'
-import image5 from "../../assets/Gallery/Punyayathra/kjaruharo_temples.jpg";// FIXED NAME
+import images5 from "../../assets/Gallery/Punyayathra/kjaruharo_temples.jpg";// FIXED NAME
 import images6 from '../../assets/Gallery/Punyayathra/Malasiya.jpg'
 import images7 from '../../assets/Gallery/Punyayathra/Sri Meenakshi.jpg'
 
