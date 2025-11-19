@@ -56,7 +56,7 @@ export const Punyayathra = [
     { id: 2, image: images2, category: 'Punyayathra',name:'somnath temple' },
     { id: 3, image: images3, category: 'Punyayathra',name:' Kashi Vishwanath Temple' },
     { id: 4, image: images4, category: 'Punyayathra',name:'Kedarnath' },
-    { id: 5, image: images5, category: 'Punyayathra',name:'Chitragupta Temple' },
+    { id: 5, image: images5, category: 'Punyayathra',name:'kjaruharo_temples' },
     { id: 6, image: images6, category: 'Punyayathra',name:'malaysia murugan temple' },
     { id: 7, image: images7, category: 'Punyayathra',name:'Meenakshi Amman Temple' },
 ]
