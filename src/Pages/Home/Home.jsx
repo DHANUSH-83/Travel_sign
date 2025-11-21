@@ -124,7 +124,8 @@ const Home = () => {
               >
                 {slides[currentIndex].title.split(" ").slice(0, -1).join(" ")}{" "}
                 <motion.span
-                  style={{ color: "#38b6ff" }}
+                  style={{ color: "#cd800cff" }}
+                  className="text-warning"
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.3, duration: 0.6 }}
@@ -208,7 +209,7 @@ const Home = () => {
             <h2
               className="fw-bold mb-4"
               style={{
-                color: "#38b6ff",
+                color: "#FFCC00",
                 fontFamily: "Times New Roman",
                 fontStyle: "italic",
               }}
@@ -272,7 +273,7 @@ const Home = () => {
           <Col xs={12} md={6}>
             <motion.h2
               className="fw-bold mb-3"
-              style={{ fontStyle: "italic", color: "#38b6ff" }}
+              style={{ fontStyle: "italic", color: "#FFCC00" }}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}

@@ -50,7 +50,7 @@ const About = () => {
       <Container fluid className="bg-light py-5" style={{ marginTop: "100px" }}>
         <motion.h1
           className="text-center fw-bold mb-5"
-          style={{ fontSize: "70px", color: "#38b6ff", fontStyle: "italic", fontFamily: "Times" }}
+          style={{ fontSize: "70px", color: "#FFCC00", fontStyle: "italic", fontFamily: "Times" }}
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -97,7 +97,7 @@ const About = () => {
       <Container fluid className="py-5 bg-light">
         <motion.h2
           className="text-center mb-5 fw-bold"
-          style={{ fontSize: "50px", fontFamily: "Times" }}
+          style={{ fontSize: "50px", fontFamily: "Times",color:'#FFCC00' }}
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}

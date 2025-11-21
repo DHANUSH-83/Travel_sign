@@ -87,7 +87,7 @@ const Services = () => {
         <Container className="text-center py-5">
           <motion.h1
             className="display-4 fw-bold mb-3"
-            style={{ fontSize: "70px", color: "#38b6ff", fontStyle: "italic", fontFamily: "Times" }}
+            style={{ fontSize: "70px", color: "#FFCC00", fontStyle: "italic", fontFamily: "Times" }}
             initial={{ opacity: 0, y: -30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}

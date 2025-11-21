@@ -68,12 +68,12 @@ const MyNavbar = () => {
             style={{
               fontStyle: "italic",
               fontWeight: "bold",
-              color: "gray",
+              color: "#38b6ff",
               fontFamily: "Times New Roman, Times, serif",
               marginBottom: "0",
             }}
           >
-            Travel <span style={{ color: "#38b6ff" }}>Sign</span>
+            Travel <span style={{ color: "#FFCC00" }}>Sign</span>
           </h4>
         </Navbar.Brand>
 
@@ -120,7 +120,7 @@ const MyNavbar = () => {
                   }`}
                   style={{
                     color:
-                      location.pathname === link.path ? "#38b6ff" : "gray",
+                      location.pathname === link.path ? "#FFCC00" : "#38b6ff",
                     transition: "color 0.3s ease",
                     fontFamily: "Times New Roman, Times, serif",
                     fontStyle: "italic",

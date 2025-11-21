@@ -23,7 +23,7 @@ const Destination = () => {
         transition={{ duration: 0.8, ease: "easeOut" }}
         viewport={{ once: false, amount: 0.3 }}
         style={{
-          color: "#38b6ff",
+          color: "#FFCC00",
           fontFamily: "Times New Roman, serif",
           fontStyle: "italic",
         }}

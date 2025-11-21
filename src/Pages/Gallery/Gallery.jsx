@@ -26,7 +26,7 @@ const Gallery = () => {
         {/* HEADER */}
         <motion.h1
           className="text-center fw-bold"
-          style={{ fontSize: "50px", color: "#38b6ff", fontStyle: "italic", fontFamily: "Times" }}
+          style={{ fontSize: "50px", color: "#FFCC00", fontStyle: "italic", fontFamily: "Times" }}
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.1 }}

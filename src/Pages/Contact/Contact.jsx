@@ -50,7 +50,7 @@ const Contact = () => {
         className="text-center fw-bold"
         style={{
           fontSize: "50px",
-          color: "#38b6ff",
+          color: "#FFCC00",
           marginTop: "90px",
           fontStyle: "italic",
           fontFamily: "Times"

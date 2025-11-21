@@ -11,7 +11,7 @@ import img10 from '../../assets/services/5.jpg';
   export const HomeServiceData = [
   {
     id: 1,
-    title: "Visa & Passport",
+    title: "Visa,Passport & Tickets",
     image:img6,
   },
   {

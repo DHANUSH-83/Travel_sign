@@ -13,7 +13,7 @@ const Testimonial = () => {
           className="fw-bold mb-3"
           style={{
             fontStyle: "italic",
-            color: "#38b6ff",
+            color: "#FFCC00",
             textShadow: "1px 1px 2px rgba(0,0,0,0.2)",
             fontFamily: "Times New Roman, serif",
           }}

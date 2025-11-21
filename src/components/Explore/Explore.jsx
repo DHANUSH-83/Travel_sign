@@ -10,11 +10,11 @@ const ExploreSection = () => {
     <Container className="mt-5 mb-5">
       {/* Section Title */}
       <h2
-        className="text-start mt-4 fw-bold fs-1"
+        className="text-start mt-4 fw-bold fs-1 "
         style={{
           fontStyle: "italic",
           fontFamily: "Times New Roman",
-          color: "#38b6ff",
+          color: "#FFC300",
         }}
       >
         Explore The World with Us....

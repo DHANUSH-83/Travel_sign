@@ -32,10 +32,9 @@ const servicesData = [
     description:
       "Fast, reliable visa and passport services with documentation, submission, and follow-ups handled by experts.",
     features: [
-      "Tourist / Business / Student Visas",
-      "Passport renewals",
-      "Document verification",
-      "Express processing",
+      "Visa(Tourist / Business / Student Visas)",
+      "World wide embessy attestation",
+      "RMI Apply"," ticket booking(Train,Bus,Flight)",
     ],
     image: ser1,
     whatsappMsg: "Hi! I want info about Visa & Passport Services.",
@@ -219,7 +218,7 @@ const MainServicesPage = () => {
                           </div>
 
                           <div>
-                            <h3 className="mb-0 fw-bold">{service.title}</h3>
+                            <h3 className="mb-0 fw-bold text-warning">{service.title}</h3>
                             <small className="text-muted">
                               {service.subtitle}
                             </small>
