@@ -102,13 +102,13 @@ const Destination = () => {
         >
           <Button
             variant="info"
-            className="px-4 py-2 fw-semibold"
+            className="px-4 py-2 fw-semibold bg-primary"
             onClick={() => navigate('/service')}
             style={{
               color: "white",
               fontFamily: "Times New Roman, serif",
               borderRadius: "30px",
-              backgroundColor: "#38b6ff",
+              // backgroundColor: "#38b6ff",
               border: "none",
               transition: "all 0.3s ease",
             }}

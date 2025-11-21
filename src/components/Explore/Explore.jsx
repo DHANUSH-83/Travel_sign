@@ -77,13 +77,13 @@ const ExploreSection = () => {
       {/* Book Now Button */}
       <div className="text-center mt-4">
         <Button
-          className="px-4 py-2 fw-semibold"
+          className="px-4 py-2 fw-semibold bg-primary"
           onClick={() => navigate('/service')}
           style={{
             color: "white",
             fontFamily: "Times New Roman, serif",
             borderRadius: "30px",
-            backgroundColor: "#38b6ff",
+            // backgroundColor: "#38b6ff",
             border: "none",
             cursor: "pointer",
           }}
